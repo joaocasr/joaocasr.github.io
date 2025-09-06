@@ -1,0 +1,13 @@
+{
+    "allpublications": [
+        {
+            "authors": ["João Paulo Castro","José Creissac Campos"],
+            "name": "Automating code generation from User Interface prototypes",
+            "abstract": "In web application development, the transition from design to the implementation phase is a time-consuming task. User-centred design is an iterative process that involves ideation, testing, and refinement to enhance usability, functionality, and the overall user experience. However, there is still a need to code the final design. In this paper, we propose an approach and its supporting tool to generate front-end code from a prototype of the user interface. Our goal is to generate code that can be easily integrated into the overall application development.",
+            "journal": "International Conference on Graphics and Interaction (ICGI) ",
+            "year": "2025",
+            "link": "https://github.com/joaocasr/figma2vuejs",
+            "image": "pdfthumbnail.png"
+        }
+    ]
+}
