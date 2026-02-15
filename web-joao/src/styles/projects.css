@@ -1,0 +1,73 @@
+.projectsbody{
+    margin: 0;
+    min-height: 100%;  
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #e0e0e0; /* Light gray text for contrast */
+    background-color: #212121; /* Dark background */
+}
+
+.projectsbody .projectcard{
+    display: block;
+    margin: 15px auto;
+    align-items: center;
+    justify-content: center;
+}
+.projectstitle{
+    text-align: center;
+    margin-top: 200px;
+    font-weight: 900;
+    font:
+    2rem "AmstelvarAlpha",
+    sans-serif;
+    color: #e0e0e0;
+}
+.statsbtn{
+    width: 130px;
+    height: 55px;
+    font-size: 16px;
+    margin-top: 8px;
+    position: relative;
+    border: 0;
+    border-radius: 6px;
+    color: white;
+}
+
+#demo-multiple-checkbox-label{
+    color: white !important;
+    border: white !important;
+}
+
+.formtype{
+    background-color: rgb(59, 59, 59);
+    margin-top:240px;
+}
+
+.statscontainer{
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    display:inline-flex;
+    background-color: #1a1b27;
+    margin-top: 20px;
+    padding: 40px;
+    border: #e0e0e0 1px solid;
+    width: 900px;
+    height: 700px;
+}
+
+@media (max-width: 900px) {
+    .projectcard {
+        width: 380px;
+        justify-content: center;
+        align-items: center;
+        display: inline-flex;
+    }
+    .projectcard .technologiescard{
+        width: 380px;
+    }
+    .technologiescard span{
+        padding: 18px;
+    }
+}

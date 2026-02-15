@@ -1,0 +1,88 @@
+.projectcard {
+    background-color: #1b1b1b;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    margin-top:40px;
+    width: 850px;
+    height: auto;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.projectcard:hover{
+    transform: scale(1.1);
+    background-color: #313131;
+}
+
+.projectcardbody{
+    display: inline-flex;
+}
+.projectcardimage {
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.projectcardinfo h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.projectcard .technologiescard{
+    display: inline-flex;
+    width: 850px;
+    overflow-y: scroll;
+}
+.technologiescard span {
+    display: inline-flex;
+    background-color: #555251;
+    color: #e0e0e0;
+    padding: 8px 10px;
+    min-width: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 0.9em;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.projectcardlinks {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+.projectcardlinks a {
+    display: inline-block;
+    background-color: #444444; /* Darker gray for buttons */
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.projectcardlinks a:hover {
+    background-color: black;
+    text-decoration: none;
+}
+.linkbutton {
+    text-decoration: none;
+    background-color: #212222;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.linkbutton:hover {
+    background-color: #6b6b6b;
+}

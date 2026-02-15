@@ -1,0 +1,123 @@
+.aboutpagebody{
+    margin: 0;
+    min-height: 100%;  
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #e0e0e0; /* Light gray text for contrast */
+    background-color: #212121; /* Dark background */
+}
+
+.firstsection{
+    margin-top:120px;
+    column-count: 2;
+    padding: 20px;
+}
+.secondsection{
+    padding: 20px;
+    column-count: 2;
+}
+.globe{
+    height: 320px;
+    width: 320px;
+    margin-top:10px;
+    margin-left: 100px;
+    padding: 100px;
+}
+.airplane{
+    position: absolute;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.livingtxt{
+    width: 100%;
+    font-size: 40px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-top: 50px;
+    color: rgb(211, 205, 198);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.livingsection{
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+.navigation{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(24, 24, 24);
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    left: 500px;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 400px;
+}
+.arrow{
+    width: 40px;
+    height: 35px;
+}
+.living{
+    padding:20px;
+}
+.aboutme{
+    padding:20px;
+}
+
+.aboutmeimg{
+    padding:20px;
+}
+
+.aboutmetxt{
+    display: inline-flex;
+    align-items: center;
+    height:80px;
+}
+
+.aboutmetxt .abouttxt{
+    padding-right: 15px;
+}
+
+.abouttxt{
+    font-size: 44px;
+}
+
+.metxt{
+    font-size: 44px;
+    color: #4278ae;
+}
+
+.lightbulb{
+    width: 60px;
+    height:60px;
+    padding-bottom: 50px;
+}
+.airplanecontainer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.textbio1{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media (max-width: 1100px) {
+    .firstsection {
+        column-count: 1; 
+    }
+    .secondsection {
+        column-count: 1; 
+    }
+    .textbio1{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+    }
+    }

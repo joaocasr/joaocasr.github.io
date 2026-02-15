@@ -1,0 +1,32 @@
+
+
+.contactsbody{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #e0e0e0; /* Light gray text for contrast */
+    background-color: #212121; /* Dark background */
+}
+
+.contacts-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; 
+    margin: 0 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.contacts-container .contacts-links{
+    align-items: center;
+}
+.contacts-container{
+    margin-top: 10px;
+    height: auto; 
+    padding: 20px;
+}
+.contacts-section { color: white; text-align: center; margin-top:200px;}
+
+.gettouch{
+    font-size: 50px;
+}

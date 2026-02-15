@@ -1,0 +1,101 @@
+.detailspagebody{
+    margin: 0;
+    min-height: 100%;  
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #e0e0e0; /* Light gray text for contrast */
+    background-color: #212121; /* Dark background */
+}
+
+
+.projectdetails-section {
+    background-color: var(--card-background);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+    white-space: pre-line;
+    text-align: start;
+}
+
+.section-title {
+    color: var(--heading-color);
+    border-bottom: 2px solid var(--primary-color);
+    margin-top: 0;
+}
+
+.subsection-title {
+    color: var(--heading-color);
+    margin-top: 20px;
+}
+
+.project-intro-section {
+    margin-top:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@media (min-width: 768px) {
+    .project-intro-section {
+        flex-direction: row;
+        gap: 30px;
+    }
+}
+
+.projectdetails-image {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.project-summary-container {
+    flex: 1;
+}
+
+.project-info-item {
+    margin: 5px 0;
+}
+
+.project-info-item a{
+    color: rgb(159, 187, 248);
+}
+.project-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+.technologies-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.technology-item {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+.screenshots-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr auto;
+}
+
+.screenshot-image {
+    width: 90%;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
