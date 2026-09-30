@@ -710,7 +710,7 @@ export default function DeveloperConsole() {
 							<div>
 								<div className="eyebrow">STORE</div>
 
-								<h1>Android Apps</h1>
+								<h1>Android Apps | João's Store</h1>
 
 								<p>
 									This is an android app store with applications within categories like entertainment, music and education.

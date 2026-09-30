@@ -40,12 +40,12 @@ const Home = () => {
                     <div className='headerline2'></div>
                     <nav>
                     <ul>
+                        <li><Link to="/androidapps_store"><u>Android Apps João's Store</u></Link></li>
                         <li><Link to="/about">About Me</Link></li>
                         <li><Link to="/projects">All Projects</Link></li>
                         <li><Link to="/publications">Publications</Link></li>
                         <li><Link to="/skills">Skills</Link></li>
                         <li><Link to="/contacts">Contacts</Link></li>
-                        <li><Link to="/androidapps_store">Android Apps Store</Link></li>
                     </ul>
                     </nav>
                 </div>
