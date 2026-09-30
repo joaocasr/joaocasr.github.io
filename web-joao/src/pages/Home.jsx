@@ -34,7 +34,7 @@ const Home = () => {
                     </div>
                     <div className="header-content">
                     <h1 className='myname'>Hello!<br></br>I'm João Paulo</h1>
-                    <p className='myrole'>MSc Computer Engineer Student</p>
+                    <p className='myrole'>PhD Computer Science Student</p>
                     </div>
                     <div className='headerline1'></div>
                     <div className='headerline2'></div>
@@ -45,6 +45,7 @@ const Home = () => {
                         <li><Link to="/publications">Publications</Link></li>
                         <li><Link to="/skills">Skills</Link></li>
                         <li><Link to="/contacts">Contacts</Link></li>
+                        <li><Link to="/androidapps_store">Android Apps Store</Link></li>
                     </ul>
                     </nav>
                 </div>
