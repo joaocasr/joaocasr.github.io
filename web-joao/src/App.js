@@ -27,7 +27,7 @@ class App extends React.Component {
             <Route path="/androidapps_store" element={<MobileApps/>}/>
             <Route path="/androidapps_store/:appId" element={<DetailsMobileApp/>}/>
 
-            <Route path="*" element={<Navigate to="/androidapps_store" replace />} />
+            <Route path="*" element={<MobileApps/>}/>
           </Routes>
           </div>
             );
